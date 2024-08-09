@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/stylesheet/foundation/slick/slick.css">
   <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
-  <title>個人用ポートフォリオ</title>
+  <title>架空ページ</title>
   <?php wp_head(); ?>
 </head>
 <body>
@@ -26,13 +26,8 @@
       <nav class="p-home__nav " id="js-nav">
         <ul class="p-home__items">
           <h2 class="p-home__box">HOME</h2>
-<<<<<<< HEAD
-          <li class="p-home__subItem"><a class="p-home__subText" href="<?php echo esc_url( home_url( '/single' )); ?>#linkanProfile">about me</a></li>
-          <li class="p-home__subItem"><a class="p-home__subText" href="<?php echo esc_url( home_url( '/news' ) ); ?>">animal archive</a></li>
-=======
           <li class="p-home__subItem"><a class="p-home__subText" href="<?php echo esc_url( home_url( '/' )); ?>single">会社概要</a></li>
           <li class="p-home__subItem"><a class="p-home__subText" href="<?php echo esc_url( home_url( '/news' ) ); ?>">おすすめ商品</a></li>
->>>>>>> f974097 (ECページ)
         </ul>
       </nav>
       <div class="circle-bg"></div>
